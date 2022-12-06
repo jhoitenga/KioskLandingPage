@@ -1,0 +1,69 @@
+html {
+	font-size: calc(1em + .8vw);
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  display: block;
+  color: #FFFFFF;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-size: inherit;
+  background: #1b3e6f;
+}
+
+.image {
+  padding: 30px;
+  text-align:left;
+  margin: +5% 0 0;
+  float: left;
+}
+
+.text {
+  border: 0;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  width: 800px;
+  position: relative;
+  left: 80px;
+  top:-50px;
+  margin: 2px;
+  color: #1b3e6f;
+  font-weight: 700;
+  font-size: inherit;
+  text-decoration: none;
+  font-family: "proxima-nova-soft", sans-serif;
+  float: right;
+}
+
+
+/* Button */
+.bn49 {
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  width: 350px;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #BA3837;
+  border-radius: 12px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 700;
+  font-size: inherit;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;  
+  }
+  
+@media only screen and (max-width:620px) {
+  .image, .header, .text {
+	width:100%;
+	left: 0%;
+	top: 0%;
+	padding: 6px;
+}
